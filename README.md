@@ -23,7 +23,7 @@ Plots the number of confusing doublets for all liaison consonants and all substi
 ### Number of troublesome doublets (frequency analysis)
 * ```4-extract-frequency-data.py```
 
-Retrieves frequency data from Google Ngram Viewer for all doublets. These data will be stored in ```doublets/raw-frequency-data```. This script allows one to get the required data without downloading and using all the data available on Google (tons of GB), but is tedious as it makes http requests one by one. If you follow the steps of the thesis, it is better to copy in ```doublets``` the folder available on github ```raw-frequency-data```. 
+Retrieves frequency data from Google Ngram Viewer for all doublets. These data will be stored in ```doublets/raw-frequency-data```. This script allows one to get the required data without downloading and using all the data available on Google (tons of GB), but is tedious as it makes http requests one by one. (If you follow the steps of the thesis, it is probably better to copy in ```doublets``` the folder available on github ```raw-frequency-data```to skip this step - in that case, do not run the following script.)
 
 * ```5-rename-frequency-files.py```
 
